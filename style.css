@@ -62,7 +62,61 @@
   display: block;
   margin: 15px auto;
 }
+.header_GioiThieu {
+  background: red;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.header_GioiThieu nav {
+  /* color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: 0.3s; */
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  /* background: #2e7d32; */
+  color: #ffe082;
+}
 .header_GioiThieu #textDauTrang {
   text-align: center;
   font-style: italic;
+}
+
+.header_about h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 52px;
+}
+.header_about {
+  background: url(./img/picBanner.jpg);
+}
+.main_about p {
+  font-size: 24px;
+}
+.main_about {
+  background: url(./img/picBanner.jpg);
+}
+.img_anhBanhTet {
+  width: 50%;
+  height: 60%;
+  float: left;
+}
+.img_anhChoTet {
+  width: 50%;
+  height: 60%;
+  float: right;
 }
