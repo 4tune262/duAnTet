@@ -208,3 +208,74 @@ nav a:hover {
     width: 100%;
   }
 }
+/* Sinh hoạt */
+/* ===== Banner Văn hóa ===== */
+.vanhoa-banner {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./img/picSinhHoat.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 90px 20px 20px;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+/* Card */
+.vanhoa-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 35px;
+  background: #e8f5e9;
+  padding: 20px;
+  border-left: 6px solid #c62828;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.vanhoa-card:hover {
+  transform: scale(1.02);
+}
+
+.vanhoa-card img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+.vanhoa-card h3 {
+  color: #b71c1c;
+}
+
+/* Quote */
+.quote-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.quote-section blockquote {
+  font-size: 22px;
+  font-style: italic;
+  color: #c62828;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .vanhoa-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vanhoa-card img {
+    width: 100%;
+  }
+}
