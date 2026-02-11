@@ -157,4 +157,54 @@ nav a:hover {
   height: 50%;
   align-self: center;
 }
-/*  */
+/* Ẩm thực */
+/* ===== Banner Ẩm thực ===== */
+.amthuc-banner {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/amThuc-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px 20px;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* Food Card */
+.food-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  background: #fff8e1;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.food-card img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.food-card h3 {
+  color: #b71c1c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .food-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .food-card img {
+    width: 100%;
+  }
+}
