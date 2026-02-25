@@ -279,3 +279,33 @@ nav a:hover {
     width: 100%;
   }
 }
+/* .button_ChuyenTiep {
+  color: #ffcc00;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #b71c1c;
+} */
+
+/* Nút phong cách Tết */
+.button_ChuyenTiep {
+  text-decoration: none; /* bỏ gạch chân */
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+
+  color: #ffd700; /* vàng kim */
+  background-color: #c62828; /* đỏ Tết */
+  border-radius: 30px;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  position: calc(center);
+}
+
+/* Hiệu ứng hover */
+.button_ChuyenTiep:hover {
+  background-color: #ffcc00; /* vàng */
+  color: #b71c1c; /* đỏ đậm */
+  transform: scale(1.05);
+}
