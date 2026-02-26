@@ -24,6 +24,35 @@
       <b>Ngành: </b> <i><u>Công nghệ thông tin.</u></i>
     </p>
     <hr />
+    <!-- ===== PHẦN GỬI Ý KIẾN ===== -->
+    <section class="feedback">
+      <h2>📩 Gửi ý kiến / phản hồi</h2>
+
+      <!-- form KHÔNG JS – dùng mailto -->
+      <form
+        action="mailto:tanloc.cltv123@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label>Họ và tên:</label>
+        <input type="text" name="name" placeholder="Nhập họ tên" required />
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Nhập email" required />
+
+        <label>Nội dung góp ý:</label>
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Nhập ý kiến của bạn..."
+          required
+        ></textarea>
+
+        <button type="submit">Gửi ý kiến</button>
+      </form>
+    </section>
+
+    <hr />
     <a href="index.html"
       ><img src="img/homebutton.jpg" alt="Home Button" height="50" width="50"
     /></a>
