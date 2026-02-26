@@ -105,13 +105,13 @@ nav a:hover {
   width: 100%;
 }
 .header_about {
-  background: url(./img/picBanner.jpg);
+  background: url(./img/PicBackGroundAbout.jpg);
 }
 .main_about p {
   font-size: 24px;
 }
 .main_about {
-  background: url(./img/picBanner.jpg);
+  background: url(./img/PicBackGroundAbout.jpg);
 }
 .img_anhBanhTet {
   width: 50%;
@@ -308,4 +308,15 @@ nav a:hover {
   background-color: #ffcc00; /* vàng */
   color: #b71c1c; /* đỏ đậm */
   transform: scale(1.05);
+}
+/* ===== BACKGROUND CHUNG ===== */
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("img/picBackGround.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
