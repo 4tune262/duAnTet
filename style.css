@@ -403,3 +403,17 @@ body {
   width: 50px;
   margin: 5px;
 }
+/* ===== FIX DÍNH NÚT & Ô NHẠC TRÊN ĐIỆN THOẠI ===== */
+@media (max-width: 768px) {
+  .banner {
+    padding-bottom: 80px; /* đẩy nội dung xuống */
+  }
+
+  .btn_Banner {
+    margin-bottom: 40px; /* tạo khoảng cách với music box */
+  }
+
+  .music-box {
+    margin-top: 30px;
+  }
+}
