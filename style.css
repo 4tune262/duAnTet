@@ -49,13 +49,42 @@
 .btn_Banner {
   background: #b71c1c;
 }
-.music {
+/* .music {
   text-align: center;
   margin: 30px 0;
 }
-.music p {
+.music h2 {
   font-weight: bold;
   color: #c62828;
+} */
+/* ===== THẺ NHẠC XUÂN ===== */
+.music {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+
+  /* background: rgba(255, 255, 255, 0.9); */
+  background: url(./img/picBackGroundBoxMusic.jpg);
+  border-radius: 12px;
+
+  text-align: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.music h2 {
+  margin-bottom: 15px;
+  color: yellow;
+}
+
+.music audio {
+  width: 100%;
+}
+
+.music-note {
+  margin-top: 10px;
+  font-style: italic;
+  color: yellow;
 }
 .main_GioiThieu image {
   width: 80%;
