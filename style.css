@@ -29,12 +29,26 @@
   color: greenyellow;
   text-align: center;
 }
+.banner {
+  min-height: 100vh; /* quan trọng */
+  height: auto; /* cho banner tự cao */
+  padding: 60px 20px; /* tạo khoảng an toàn */
+
+  display: flex;
+  align-items: center;
+}
 .banner_content h1 {
   font-size: 52px;
 }
+
 .banner_content p {
   font-size: 22px;
   font-style: italic;
+}
+.banner_content {
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 40px; /* giữ nút */
 }
 .btn_Banner {
   display: inline-block;
@@ -403,17 +417,18 @@ body {
   width: 50px;
   margin: 5px;
 }
-/* ===== FIX DÍNH NÚT & Ô NHẠC TRÊN ĐIỆN THOẠI ===== */
 @media (max-width: 768px) {
   .banner {
-    padding-bottom: 80px; /* đẩy nội dung xuống */
+    padding-top: 80px;
+    padding-bottom: 100px; /* CHỐT HẠ */
   }
 
   .btn_Banner {
-    margin-bottom: 40px; /* tạo khoảng cách với music box */
+    display: inline-block;
+    margin-top: 20px;
   }
 
   .music-box {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
